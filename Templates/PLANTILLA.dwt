@@ -1,0 +1,94 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>Documento sin título</title>
+<!-- TemplateEndEditable -->
+<link href="../ESTILOS/Estilos.css" rel="stylesheet" type="text/css" />
+<link href="../SpryAssets/SpryMenuBarVertical.css" rel="stylesheet" type="text/css" />
+<script src="../SpryAssets/SpryMenuBar.js" type="text/javascript"></script>
+<script type="text/javascript">
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+</head>
+
+<body onload="MM_preloadImages('../IMAGENES/images (1).jpg','../IMAGENES/images (2).jpg')">
+
+<div class="container">
+  <div class="header"><!-- end .header --><img src="../IMAGENES/BANER.png" width="800" height="160" usemap="#Map" border="0" />
+    <map name="Map" id="Map">
+      <area shape="circle" coords="726,109,45" href="../INDEX.html" />
+      <area shape="poly" coords="219,83,236,114,268,112,288,57,243,38" href="#" />
+      <area shape="rect" coords="470,30,582,140" href="#" />
+    </map>
+  </div>
+  <div class="sidebar1">
+    <ul id="MenuBar1" class="MenuBarVertical">
+      <li><a href="#">Inicio</a>      </li>
+      <li><a href="#">QUIENES SOMOS</a></li>
+      <li><a class="MenuBarItemSubmenu" href="#">LUGARES TURISTICOS</a>
+        <ul>
+          <li><a class="MenuBarItemSubmenu" href="#">NEVADO CAYAMBE</a>
+            <ul>
+              <li><a href="#">Elemento 3.1.1</a></li>
+              <li><a href="#">Elemento 3.1.2</a></li>
+            </ul>
+          </li>
+          <li><a href="../PARQUE YAZNAN.html">PARQUE YAZNAN</a></li>
+</ul>
+      </li>
+      <li><a href="#">RESERVACIONES</a></li>
+      <li><a href="#">PROMOCIONES</a></li>
+    </ul>
+    <p>&nbsp;</p>
+    <!-- end .sidebar1 --></div>
+  <div>
+    <div class="content" onmouseover="MM_swapImage('sinnombre &lt;img&gt;','','../IMAGENES/images (1).jpg',1)">
+      <div>
+        <h1>Instrucciones</h1>
+      </div>
+      <!-- TemplateBeginEditable name="EDI1" -->
+      <p>&nbsp;</p>
+      <h2>BIENVENIDA</h2>
+      <!-- TemplateEndEditable -->
+      <p><img src="../IMAGENES/descarga (1).jpg" width="259" height="194" />.</p>
+      <div onmouseover="MM_swapImage('sinnombre &lt;img&gt;','','../IMAGENES/images (2).jpg',1)"></div>
+      <div><!-- TemplateBeginRepeat name="Repeat1" -->
+        <h4>Fondos</h4>
+        <p>TITULO DE NI SE DONDE</p>
+      <!-- TemplateEndRepeat --><!-- end .content --></div>
+    </div>
+  </div>
+  <div class="footer">
+    <p>Este .footer contiene la declaración position:relative; para dar a Internet Explorer 6 hasLayout para .footer y provocar que se borre correctamente. Si no es necesario proporcionar compatibilidad con IE6, puede quitarlo.</p>
+    <!-- end .footer --></div>
+  <!-- end .container --></div>
+<script type="text/javascript">
+var MenuBar1 = new Spry.Widget.MenuBar("MenuBar1", {imgRight:"SpryAssets/SpryMenuBarRightHover.gif"});
+</script>
+</body>
+</html>
